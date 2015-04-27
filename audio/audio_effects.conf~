@@ -12,6 +12,9 @@ libraries {
   reverb {
     path /system/lib/soundfx/libreverbwrapper.so
   }
+  qcbassboost {
+    path /vendor/lib/soundfx/libqcbassboost.so
+  }
   qcvirt {
     path /vendor/lib/soundfx/libqcvirt.so
   }
