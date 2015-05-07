@@ -101,7 +101,7 @@ persist.fuse_sdcard=true
 #snapdragon value add features
 #
 ro.qc.sdk.audio.ssr=false
-##fluencetype can be "fluence" or "fluencepro" or "none"
+#fluencetype can be "fluence" or "fluencepro" or "none"
 ro.qc.sdk.audio.fluencetype=fluence
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
@@ -131,6 +131,7 @@ voice.voip.conc.disabled=true
 #Set read only default composition for USB
 ro.sys.usb.default.config=diag,serial_smd,rmnet_bam,adb
 
+#property to disable offload audio
 audio.offload.disable=1
 audio.offload.pcm.enable=false
 
@@ -139,7 +140,7 @@ ro.config.max_starting_bg=8
 
 #property to enable user to access Google WFD settings
 persist.debug.wfd.enable=1
-#propery to enable VDS WFD solution
+#property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 ro.min_freq=800000
 
@@ -149,5 +150,5 @@ ro.config.pppoe_enable=1
 #hardware version
 ro.build.hardware.version=P1
 
-# 141231 liuzhaofei for manul search network display 2G/3G/4G
+# 141231 liuzhaofei for manual search network display 2G/3G/4G
 persist.radio.rat_on=combine
