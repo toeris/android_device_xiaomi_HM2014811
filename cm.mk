@@ -10,8 +10,8 @@ $(call inherit-product, device/xiaomi/HM2014811/device.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := HM2014811
 PRODUCT_NAME := cm_HM2014811
-PRODUCT_BRAND := xiaomi
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := HM2014811
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := Xiaomi
 
 ## CyanogenMod
